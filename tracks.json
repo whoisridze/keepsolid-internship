@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Cancelled Show",
+    "artist": "Pathologic 2 OST",
+    "src": "music/track1.mp3",
+    "cover": "https://assets1.ignimgs.com/2020/03/02/pathologic-2---button-fin-1583174027877.jpg?width=300&crop=1%3A1%2Csmart&auto=webp"
+  },
+  {
+    "title": "Hate Life",
+    "artist": "Cry of Fear OST",
+    "src": "music/track2.mp3",
+    "cover": "https://imgs.search.brave.com/jiKCVVSKkDutGyq2E5zKyT57rr2lIhCgPwow-pvuKlg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pMS5z/bmRjZG4uY29tL2Fy/dHdvcmtzLTAwMDI0/NTY0OTIyMS05ZDhl/YzgtdDUwMHg1MDAu/anBn"
+  },
+  {
+    "title": "Silencio Zero",
+    "artist": "Pathologic 2 OST",
+    "src": "music/track3.mp3",
+    "cover": "https://assets1.ignimgs.com/2020/03/02/pathologic-2---button-fin-1583174027877.jpg?width=300&crop=1%3A1%2Csmart&auto=webp"
+  },
+  {
+    "title": "Odongh",
+    "artist": "Pathologic 2 OST",
+    "src": "music/track4.mp3",
+    "cover": "https://assets1.ignimgs.com/2020/03/02/pathologic-2---button-fin-1583174027877.jpg?width=300&crop=1%3A1%2Csmart&auto=webp"
+  },
+  {
+    "title": "Labyrinth",
+    "artist": "1000 eyes (Signalis OST)",
+    "src": "music/track5.mp3",
+    "cover": "https://cdn2.steamgriddb.com/icon_thumb/663c32b3579961d11b0e6a0c05465033.png"
+  }
+]

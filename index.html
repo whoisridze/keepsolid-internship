@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Glass Music Player</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="background"></div>
+
+    <div class="player-container">
+      <div class="glass-card">
+        <div class="album-art">
+          <div class="vinyl-effect"></div>
+          <img id="album-cover" src="" alt="Album Cover" />
+        </div>
+
+        <div class="player-info">
+          <h2 id="track-title">Loading...</h2>
+          <p id="artist-name"></p>
+
+          <div class="progress-container">
+            <span id="current-time">0:00</span>
+            <div class="progress-bar">
+              <div id="progress"></div>
+            </div>
+            <span id="duration">0:00</span>
+          </div>
+
+          <div class="controls">
+            <button id="prev-btn" class="control-btn">
+              <i class="fas fa-backward"></i>
+            </button>
+            <button id="play-btn" class="control-btn play-btn">
+              <i class="fas fa-play play-icon"></i>
+              <i class="fas fa-pause pause-icon"></i>
+            </button>
+            <button id="next-btn" class="control-btn">
+              <i class="fas fa-forward"></i>
+            </button>
+          </div>
+
+          <div class="volume-container">
+            <i class="fas fa-volume-down"></i>
+            <div class="volume-slider">
+              <div id="volume-progress"></div>
+            </div>
+            <i class="fas fa-volume-up"></i>
+          </div>
+        </div>
+      </div>
+
+      <div class="glass-card playlist-card">
+        <h3>Playlist</h3>
+        <ul id="playlist">
+          <!-- Playlist items will be dynamically added here -->
+          <li class="playlist-item loading">Loading playlist...</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Hidden audio element -->
+    <audio id="audio-player" src=""></audio>
+
+    <script src="script.js"></script>
+  </body>
+</html>
